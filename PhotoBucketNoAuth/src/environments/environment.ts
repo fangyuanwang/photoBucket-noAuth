@@ -4,5 +4,13 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: 'AIzaSyDhAXyvEq4OLNWFGCL2tG1SzauJach3FDI',
+    authDomain: 'wangf-photobucket-noauth.firebaseapp.com',
+    databaseURL: 'https://wangf-photobucket-noauth.firebaseio.com',
+    projectId: 'wangf-photobucket-noauth',
+    storageBucket: 'wangf-photobucket-noauth.appspot.com',
+    messagingSenderId: '573374794356'
+  }
 };
